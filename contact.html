@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Colton Porto</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,16 +13,26 @@
             <body>
                     <header>
                             <ul>
-                                    <a href="index.html" id="about">About</a>
-                                    <a href="portfolio.html" id="portfolio">Portfolio</a>
-                                    <a href="contact.html" id="contact">Contact</a>
+                                    <a id="name">Colton Porto</li>
+                                        <a href="contact.html" id="contact">Contact</a>
+                                        <a href="portfolio.html" id="portfolio">Portfolio</a>
+                                        <a href="index.html" id="about">About</a>
                             </ul>
                         </header>
-                    <h1>Contact</h1>
-                     <h2>Name</h2>
-                      <h3>Email</h3>
+                        <div class="container">
+                                    <h1>Contact</h1>
+                                    <form action="/action_page.php" id="usrform">
+                                        Name: <input type="text" name="usrname">
+                                    </form>
+                                    <form action="/action_page.php" id="email">
+                                        Email: <input type="text" email="email">
+                                    </form>
+                                                    <br>
+                                                            <textarea rows="4" cols="50" name="comment" form="usrform">
+                                                                    message here...</textarea>
+                                                            <input type="submit">
+
+                        </div>
             </body>
-    <footer>
         <p id="copyright">copyright &copy;</p>
-    </footer>
 </html>

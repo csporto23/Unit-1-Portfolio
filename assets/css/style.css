@@ -1,7 +1,6 @@
 
-
-#aboutbody {
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.zip);
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/metal_line_stripes_light_shiny_silver_18401_1920x1080.jpg);
     margin:0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12;
@@ -16,13 +15,13 @@
 #name {
     background-color: teal;
     border-style: solid;
-    border-width: 8px;
     color:#ffffff;
     float: left;
     font-size: 20px;
-    margin: 0 auto;
-
-
+    border-width: 2px;
+    padding: 10px;
+    margin-top: 0%;
+    
 }
 
 header {
@@ -31,7 +30,10 @@ header {
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: "Georgia", Times, 'Times New Roman', serif;
-    height: 30px;
+    height: 40px;
+    width: 700px;
+    padding-right: 100%;
+    margin-right: 100%;
 }
 
 #about, #portfolio, #contact {
@@ -40,7 +42,7 @@ header {
     border-left: solid;
     border-color: black;
     border-width: 1px;
-    margin-left: 14px;
+    margin-left: 20px;
     padding-left: 14px;
 }
 
@@ -55,12 +57,13 @@ h1 {
 }
 
 .container {
-
+    margin-top: 20px;
     border-style: solid; 
     width: 700px;
     height: 300px;
     border-width: 1px;
     float: left;
+    background-color: #ffffff;
     
 }
 img {
@@ -70,31 +73,20 @@ img {
     padding-top: 30px;
 }
 
-footer {
-    height: 300px;
-    width: 100%;
-    border-top: 8px;
-    display: block;
-    position: relative;
-    border-style: solid;
-    border-width: 8px;
-    border-top-color: teal;
-    border-color: black; 
-    margin-left: 12px;  
-}
+
 #copyright {
     line-height: 40px;
     font-size: 0.7em;
     text-align: center;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     padding-bottom: 0%;
     border-top-style: solid;
     border-width: 8px;
     border-color: teal;
-    padding-left: 33.3%;
-    padding-right: 33.3%;
-
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 10px;
 }
 
 p {
@@ -109,5 +101,8 @@ p {
     margin-left: 3%;
     margin-right: 3%;
     
+}
+section {
+    flood-color: teal; 
 }
 
