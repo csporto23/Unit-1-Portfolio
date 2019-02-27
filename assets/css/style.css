@@ -6,26 +6,11 @@ body {
     font-size: 12;
     color:#777777;
     border-color: #dddddd;
-    padding-right:200px; 
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    height: 100%    
+}
 
-    
-}
-#name {
-    background-color: teal;
-    border-style: solid;
-    color:#ffffff;
-    float: left;
-    font-size: 20px;
-    border-width: 2px;
-    margin-left: 20%;
-    padding-bottom: 8px;
-    padding-top: 24px;
-    box-sizing: content-box;
-    width: 120px;
-    border-color: teal;
-    
-}
 
 header {
     background-color: #ffffff;
@@ -34,8 +19,22 @@ header {
     height: 40px;
     padding-bottom: 2%;
     box-sizing: content-box;
-    width: 1024px;
-   
+    width: 100%;  
+}
+
+#name {
+    background-color: teal;
+    border-style: solid;
+    color:#ffffff;
+    float: left;
+    font-size: 20px;
+    border-width: 2px;
+    margin-left: 25%;
+    padding-bottom: 8px;
+    padding-top: 24px;
+    box-sizing: content-box;
+    width: 120px;
+    border-color: teal;  
 }
 
 #about, #portfolio, #contact {
@@ -57,19 +56,19 @@ h1 {
     font-weight: bold;
     margin: 0px;
     padding-left: 20px;
-
 }
 
 .container {
     margin-top: 20px;
     border-style: solid; 
     margin-left: 25%;
+    margin-right: 25%;
     height: 300px;
     border-width: 1px;
     float: left;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
 }
+
 img {
     float: left;
     margin: 3px;
@@ -78,7 +77,9 @@ img {
 }
 
 
+
 #copyright {
+    color: #ffffff;
     line-height: 40px;
     font-size: 0.7em;
     text-align: center;
@@ -89,23 +90,43 @@ img {
     border-color: teal;
     padding-top: 10px;
     box-sizing: content-box;
-    width: 1024px;
+    width: 100%;
+    margin-left: 0%;
+    background-color: grey;
+    margin-bottom: 0%;
 }
 
 p {
    word-spacing: 2px;
    margin: 14px;
 }
+
  .first {
     border-top-style: solid;
     border-width: 2px;
     border-color: grey;
     padding-top: 20px;
     margin-left: 3%;
-    margin-right: 3%;
-    
+    margin-right: 3%;   
 }
 section {
     flood-color: teal; 
 }
+
+
+#usrform, #email {
+    padding-left: 20px;
+    padding-top: 12px;
+    float: left;
+}
+#message {
+    text-align: left;
+    padding-top: 60px;
+    margin-left: 20px;
+}
+.comment-box {
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
 
