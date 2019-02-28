@@ -118,6 +118,7 @@ section {
     padding-left: 20px;
     padding-top: 12px;
     float: left;
+    margin-right:4px;
 }
 #message {
     text-align: left;
