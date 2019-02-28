@@ -111,6 +111,10 @@ p {
     margin-left: 3%;
     margin-right: 3%;   
 }
+
+.second {
+    margin-bottom: 8px;
+}
 section {
     flood-color: teal; 
 }
