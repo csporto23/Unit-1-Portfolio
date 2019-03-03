@@ -149,5 +149,8 @@ img:hover {
     color: red;
     padding: 6px;
 }
+@media screen and (max-width: 768px) {
 
+    
+}
 
